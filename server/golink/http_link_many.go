@@ -4,7 +4,7 @@ package golink
 import (
 	"time"
 
-	"github.com/link1st/go-stress-testing/model"
+	"github.com/hualuohuasheng/go-stress-testing/model"
 )
 
 // ReqListMany 接口分步压测

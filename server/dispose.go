@@ -6,13 +6,13 @@ import (
 	"sync"
 	"time"
 
-	httplongclinet "github.com/link1st/go-stress-testing/server/client/http_longclinet"
+	httplongclinet "github.com/hualuohuasheng/go-stress-testing/server/client/http_longclinet"
 
-	"github.com/link1st/go-stress-testing/model"
-	"github.com/link1st/go-stress-testing/server/client"
-	"github.com/link1st/go-stress-testing/server/golink"
-	"github.com/link1st/go-stress-testing/server/statistics"
-	"github.com/link1st/go-stress-testing/server/verify"
+	"github.com/hualuohuasheng/go-stress-testing/model"
+	"github.com/hualuohuasheng/go-stress-testing/server/client"
+	"github.com/hualuohuasheng/go-stress-testing/server/golink"
+	"github.com/hualuohuasheng/go-stress-testing/server/statistics"
+	"github.com/hualuohuasheng/go-stress-testing/server/verify"
 )
 
 const (

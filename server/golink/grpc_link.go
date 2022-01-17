@@ -6,11 +6,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/link1st/go-stress-testing/helper"
-	pb "github.com/link1st/go-stress-testing/proto"
+	"github.com/hualuohuasheng/go-stress-testing/helper"
+	pb "github.com/hualuohuasheng/go-stress-testing/proto"
 
-	"github.com/link1st/go-stress-testing/model"
-	"github.com/link1st/go-stress-testing/server/client"
+	"github.com/hualuohuasheng/go-stress-testing/model"
+	"github.com/hualuohuasheng/go-stress-testing/server/client"
 )
 
 // Grpc grpc 接口请求

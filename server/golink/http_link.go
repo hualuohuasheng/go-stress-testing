@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/link1st/go-stress-testing/model"
-	"github.com/link1st/go-stress-testing/server/client"
+	"github.com/hualuohuasheng/go-stress-testing/model"
+	"github.com/hualuohuasheng/go-stress-testing/server/client"
 )
 
 // HTTP 请求

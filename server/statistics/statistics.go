@@ -8,12 +8,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/link1st/go-stress-testing/tools"
+	"github.com/hualuohuasheng/go-stress-testing/tools"
 
 	"golang.org/x/text/language"
 	"golang.org/x/text/message"
 
-	"github.com/link1st/go-stress-testing/model"
+	"github.com/hualuohuasheng/go-stress-testing/model"
 )
 
 var (
@@ -102,6 +102,7 @@ func ReceivingResults(concurrent uint64, ch <-chan *model.RequestResults, wg *sy
 	stopChan <- true
 	endTime := uint64(time.Now().UnixNano())
 	requestTime = endTime - statTime
+	fmt.Println(statTime, endTime, requestTime, float64(requestTime), float64(requestTime)/1e9)
 	calculateData(concurrent, processingTime, requestTime, maxTime, minTime, successNum, failureNum, chanIDLen, errCode,
 		receivedBytes)
 
@@ -165,7 +166,7 @@ func header() {
 	fmt.Printf("\n\n")
 	// 打印的时长都为毫秒 总请数
 	fmt.Println("─────┬───────┬───────┬───────┬────────┬────────┬────────┬────────┬────────┬────────┬────────")
-	fmt.Println(" 耗时│ 并发数│ 成功数│ 失败数│   qps  │最长耗时│最短耗时│平均耗时│下载字节│字节每秒│ 状态码")
+	fmt.Println(" 耗时│ 并发数│ 成功数 │ 失败数│   qps  │最长耗时(ms)│最短耗时(ms)│平均耗时(ms)│下载字节│字节每秒│ 状态码")
 	fmt.Println("─────┼───────┼───────┼───────┼────────┼────────┼────────┼────────┼────────┼────────┼────────")
 	return
 }
