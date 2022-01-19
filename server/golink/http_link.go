@@ -15,7 +15,7 @@ func HTTP(chanID uint64, ch chan<- *model.RequestResults, totalNumber uint64, wg
 	defer func() {
 		wg.Done()
 	}()
-	// fmt.Printf("启动协程 编号:%05d \n", chanID)
+	//fmt.Printf("启动协程 编号:%05d \n", chanID)
 	for i := uint64(0); i < totalNumber; i++ {
 		list := getRequestList(request)
 		isSucceed, errCode, requestTime, contentLength := sendList(list)

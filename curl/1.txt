@@ -1,0 +1,6 @@
+curl --location --request POST 'http://roxe-rts21-bj-test.roxepro.top:38888/router/get-router-list' \
+--header 'timestamp: 1642556741357' \
+--header 'apiId: JQ3wRBWVxwh4r9eq6V08gWF3mUuQTbn7' \
+--header 'sign: aIS8IHDTiOCyN20+HnKhPZUhWgsYsSdPYP5StWA16YTyYdJWWeXsh2yIRaDEEMLzCvYQyQVkEQdL0QUB9SQYorPBXGA8WGB2/6NHofzZUpM4QLl4QT4LwLSyhK2w69t4Q386ElyKO/H1THmHVy2NbozwWInkjlaghHllKB/cBHfMKDn2RwKOPjGv8CJjuLywk4QBLku+QfX/64YmLTKoCzOJKrIVqFAdLlPJIRjXd/LkPOom0TOxvEPq3gRAcy7h98QfmNOf/nxgqyoHLHpwtHh695e++Sjy5szk3RGEDEydgNGI9Oo/k9eHH3KWM9On12PgZsxu68RVmi0qd9IKAg==' \
+--header 'Content-Type: application/json' \
+--data-raw '{"resource":{"algorithm":"AES_256_GCM","ciphertext":"MXDp8flytyEorSzreNwHu3Tp7Ye9XrexSvRLdYudmTmqu5waW51+jzWvdDulYLeGqY2IIWybqLq28ZmyCg/IP76znBaAKUNbw+9+5mvP1ySjoYc13lVoLg3EptK08fmBMryYzcvP+ptnl3o6xtAl15K/Nmz/4siAth7YZyoxj/IF2wmOUGCovLUU2VqUFIIlg/0OQK/PAvfAvl40gO5L4V0lgOi+1sgXHSfyBEI/dy23JUbIjgOTbM06+tqtDzPF8Cv4Ra8=","associatedData":"eKdj7Iklsc82djH","nonce":"Jdiw8ID12yHyd123"}}'
